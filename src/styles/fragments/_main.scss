@@ -1,0 +1,43 @@
+.first-page-content {
+  display: grid;
+  grid-template-areas: "core first" "core second" "core third";
+  gap: 20px;
+  margin: 0 20px;
+
+
+  .core-info,
+  .something-1,
+  .something-2,
+  .something-3 {
+    border: 2px solid #4b6fe3;
+    border-radius: 15px;
+    box-shadow: 3px 3px 10px 5px rgba(0, 0, 0, 0.1);
+    background: white;
+  }
+
+  .core-info {
+    grid-area: core;
+    width: calc(50vw - 60px);
+    height: 750px;
+  }
+
+  .something-1,
+  .something-2,
+  .something-3 {
+    width: calc(50vw);
+    height: 230px;
+  }
+
+  .something-1 {
+    grid-area: first;
+  }
+
+  .something-2 {
+    grid-area: second;
+  }
+
+  .something-3 {
+    grid-area: third;
+  }
+
+}
