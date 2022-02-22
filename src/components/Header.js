@@ -1,5 +1,7 @@
 import bell from '../recources/photos/bell_3.svg'
 import logo from '../recources/photos/logo-market.jpg'
+import {Link} from "react-router-dom";
+import StyledLink from "./styled-components/StyledLink";
 
 function Header() {
 
@@ -38,11 +40,22 @@ function Header() {
             </div>
             <nav className={"header__nav-part"}>
                 <ul className={"nav-part__choose"}>
-                    <li className={"nav-part__choose-element"}>Главная</li>
-                    <li className={"nav-part__choose-element"}>Продвижение</li>
-                    <li className={"nav-part__choose-element"}>Реклама</li>
-                    <li className={"nav-part__choose-element"}>Статистика</li>
-                    <li className={"nav-part__choose-element"}>Финансы</li>
+                    <li className={"nav-part__choose-element"}>
+                        <StyledLink to="/">
+                            <div>
+                                Главная
+                            </div>
+                        </StyledLink>
+                    </li>
+                    <li className={"nav-part__choose-element"}>
+                        <StyledLink to="/advertisement">Рекламы</StyledLink>
+                    </li>
+                    <li className={"nav-part__choose-element"}>
+                        <StyledLink to="/unit">Unit-экономика</StyledLink>
+                    </li>
+                    <li className={"nav-part__choose-element"}>
+                        <StyledLink to="/analytics">Аналитика</StyledLink>
+                    </li>
                     <li className={"nav-part__choose-element"}>Еще...</li>
                 </ul>
                 <div className={"nav-part__info-boxes"}>

@@ -1,5 +1,6 @@
 @import "fragments/header";
-@import "fragments/main";
+@import "fragments/home";
+@import "fragments/footer";
 
 @font-face {
   font-family: "GT";
@@ -26,3 +27,6 @@ html {
   gap: 20px;
 }
 
+.recharts-legend-item {
+  font-size: 22px;
+}

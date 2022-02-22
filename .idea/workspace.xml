@@ -1,16 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="de284527-2c2c-4f09-bb64-ecef437db731" name="Changes" comment="" />
+    <list default="true" id="13fa9613-f650-4c7e-b666-df154fc376e0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Navigation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/adverisement/Advertisement.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/analytics/Analytics.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/home/Graph.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/unit/Unit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/styled-components/StyledLink.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/fragments/_footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/home/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/fragments/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/fragments/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/fragments/_main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/fragments/_home.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/index.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/index.scss" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="SCSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="25Q59hbISd5hC7mQituiLdE4ND6" />
+  <component name="ProjectId" id="25TN31SrF0fsrdvvuwYXqcjXj00" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -19,8 +48,20 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Dmitry\WebstormProjects\ozonStatisticFront\src\components\pages\adverisement" />
+      <recent name="C:\Users\Dmitry\WebstormProjects\ozonStatisticFront\src\components\pages\home" />
+      <recent name="C:\Users\Dmitry\WebstormProjects\ozonStatisticFront\src\components\pages" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/index.js" working-dir="$PROJECT_DIR$/src">
@@ -35,12 +76,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="de284527-2c2c-4f09-bb64-ecef437db731" name="Changes" comment="" />
-      <created>1645446320152</created>
+      <changelist id="13fa9613-f650-4c7e-b666-df154fc376e0" name="Changes" comment="" />
+      <created>1645546925534</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1645446320152</updated>
-      <workItem from="1645446321607" duration="1321000" />
+      <updated>1645546925534</updated>
+      <workItem from="1645546928318" duration="8325000" />
     </task>
     <servers />
   </component>

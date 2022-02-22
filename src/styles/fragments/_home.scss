@@ -24,7 +24,7 @@
   .something-1,
   .something-2,
   .something-3 {
-    width: calc(50vw);
+    width: calc(50vw - 20px);
     height: 230px;
   }
 
@@ -39,5 +39,5 @@
   .something-3 {
     grid-area: third;
   }
-
 }
+

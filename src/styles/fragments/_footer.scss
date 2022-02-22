@@ -1,0 +1,22 @@
+.footer {
+  width: 100%;
+  background: #345fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  .footer__info {
+    color: white;
+    font-size: 17px;
+  }
+
+  .footer__info-1 {
+    display: block;
+    margin: 10px auto 10px 20px;
+  }
+
+  .footer__info-2 {
+    display: block;
+    margin: 10px 20px 10px auto;
+  }
+}
