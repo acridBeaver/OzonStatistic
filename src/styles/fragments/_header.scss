@@ -5,6 +5,7 @@
   flex-direction: column;
   color: #345fff;
   box-shadow: 1px 1px 10px 8px rgba(0,0,0,0.1);
+  flex: 0 0 auto;
 
   .header__intro-part {
     display: flex;
@@ -87,10 +88,24 @@
       list-style: none;
       display: flex;
       flex-direction: row;
-      gap: 25px;
       padding: 0;
-      margin: 10px 0 10px 20px;
       font-size: 25px;
+      margin: 0;
+
+      .nav-part__choose-element{
+
+        .nav-part__choose-element-content{
+          padding: 10px 20px 10px 20px;
+          transition: background-color 0.2s linear;
+
+          &:hover {
+            background: rgba(0, 0, 0, 0.1);
+          }
+
+          &:active {
+          }
+        }
+      }
     }
     .nav-part__info-boxes {
       display: flex;

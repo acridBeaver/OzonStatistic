@@ -1,6 +1,8 @@
 @import "fragments/header";
 @import "fragments/home";
 @import "fragments/footer";
+@import "fragments/campaign";
+@import "fragments/plateCampaigns";
 
 @font-face {
   font-family: "GT";
@@ -29,4 +31,10 @@ html {
 
 .recharts-legend-item {
   font-size: 22px;
+}
+
+.main {
+  flex: 1 0 auto;
+  height: 716px;
+  width: 100%;
 }

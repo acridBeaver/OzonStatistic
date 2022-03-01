@@ -2,23 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13fa9613-f650-4c7e-b666-df154fc376e0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Navigation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/pages/adverisement/Advertisement.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/pages/analytics/Analytics.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/pages/home/Graph.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/pages/unit/Unit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/styled-components/StyledLink.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/fragments/_footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/home/Campaign.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/home/PlateCampaign.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/home/parseCampaign/parserCampaign.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/fetch_backend_api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/fragments/_campaign.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/fragments/_plateCampaigns.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/home/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/adverisement/Advertisement.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/adverisement/Advertisement.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/analytics/Analytics.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/analytics/Analytics.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/home/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/unit/Unit.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/unit/Unit.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/fragments/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/fragments/_footer.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/fragments/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/fragments/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/fragments/_main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/fragments/_home.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/fragments/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/fragments/_home.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/index.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/index.scss" afterDir="false" />
@@ -48,6 +50,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -81,7 +84,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1645546925534</updated>
-      <workItem from="1645546928318" duration="8325000" />
+      <workItem from="1645546928318" duration="8569000" />
+      <workItem from="1645615599085" duration="3402000" />
+      <workItem from="1645791973897" duration="3764000" />
+      <workItem from="1645875236157" duration="1259000" />
+      <workItem from="1645877349293" duration="6105000" />
+      <workItem from="1645959962474" duration="455000" />
+      <workItem from="1646129465192" duration="4490000" />
     </task>
     <servers />
   </component>

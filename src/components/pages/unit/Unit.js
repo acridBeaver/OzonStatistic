@@ -1,8 +1,8 @@
 function Unit(){
     return (
-        <div>
+        <main className={"main"}>
 
-        </div>
+        </main>
     )
 }
 

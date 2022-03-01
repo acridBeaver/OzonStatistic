@@ -1,8 +1,8 @@
 function Analytics(){
     return (
-        <div>
+        <main className={"main"}>
 
-        </div>
+        </main>
     )
 }
 

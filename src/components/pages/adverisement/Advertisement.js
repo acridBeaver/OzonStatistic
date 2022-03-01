@@ -1,8 +1,8 @@
 function Advertisement() {
     return (
-        <div>
+        <main className={"main"}>
 
-        </div>
+        </main>
     )
 }
 

@@ -4,19 +4,12 @@ import {Link} from "react-router-dom";
 import StyledLink from "./styled-components/StyledLink";
 
 function Header() {
-
-    async function onClick () {
-        let response = await fetch('http://localhost:8080/getImage', {mode: 'no-cors'});
-        let answer = response.json();
-        console.log(answer)
-    }
-
     return (
         <header className={"header"}>
             <div className={"header__intro-part"}>
                 <div className={"header__title"}>
                     <img className={"header__title-logo"} src={logo} alt=""/>
-                    <h1 className={"header__title-name"} onClick={onClick}>
+                    <h1 className={"header__title-name"}>
                         <span>МАРКЕТ</span>
                         <span className={"header__title-dot"}>&middot;</span>
                         <span>ПРО</span>
@@ -42,21 +35,37 @@ function Header() {
                 <ul className={"nav-part__choose"}>
                     <li className={"nav-part__choose-element"}>
                         <StyledLink to="/">
-                            <div>
+                            <div className={"nav-part__choose-element-content"}>
                                 Главная
                             </div>
                         </StyledLink>
                     </li>
                     <li className={"nav-part__choose-element"}>
-                        <StyledLink to="/advertisement">Рекламы</StyledLink>
+                        <StyledLink to="/advertisement">
+                            <div className={"nav-part__choose-element-content"}>
+                                Рекламы
+                            </div>
+                        </StyledLink>
                     </li>
                     <li className={"nav-part__choose-element"}>
-                        <StyledLink to="/unit">Unit-экономика</StyledLink>
+                        <StyledLink to="/unit">
+                            <div className={"nav-part__choose-element-content"}>
+                                Unit-экономика
+                            </div>
+                        </StyledLink>
                     </li>
                     <li className={"nav-part__choose-element"}>
-                        <StyledLink to="/analytics">Аналитика</StyledLink>
+                        <StyledLink to="/analytics">
+                            <div className={"nav-part__choose-element-content"}>
+                                Аналитика
+                            </div>
+                        </StyledLink>
                     </li>
-                    <li className={"nav-part__choose-element"}>Еще...</li>
+                    <li className={"nav-part__choose-element"}>
+                        <div className={"nav-part__choose-element-content"}>
+                            Ещё...
+                        </div>
+                    </li>
                 </ul>
                 <div className={"nav-part__info-boxes"}>
                     <div className={"nav-part__info-box"}>
