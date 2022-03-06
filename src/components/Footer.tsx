@@ -1,4 +1,6 @@
-function Footer() {
+import React from "react";
+
+const Footer: React.FC = () => {
     return (
         <footer className={"footer"}>
             <p className={"footer__info footer__info-1"}>

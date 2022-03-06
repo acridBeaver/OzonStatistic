@@ -3,8 +3,9 @@ import Home from "./pages/home/Home";
 import Advertisement from "./pages/adverisement/Advertisement";
 import Unit from "./pages/unit/Unit";
 import Analytics from "./pages/analytics/Analytics";
+import React from "react";
 
-function Navigation () {
+const Navigation : React.FC = () => {
     return (
         <Routes>
             <Route path="/" element={<Home/>}/>

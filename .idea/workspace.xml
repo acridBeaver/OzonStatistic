@@ -2,28 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13fa9613-f650-4c7e-b666-df154fc376e0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/pages/home/Campaign.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/pages/home/PlateCampaign.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/pages/home/parseCampaign/parserCampaign.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/fetch_backend_api.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/store.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/fragments/_campaign.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/fragments/_plateCampaigns.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/types.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/adverisement/Advertisement.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/adverisement/Advertisement.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/analytics/Analytics.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/analytics/Analytics.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/home/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/unit/Unit.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/unit/Unit.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/fragments/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/fragments/_footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/fragments/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/fragments/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/fragments/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/fragments/_home.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/index.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/adverisement/Advertisement.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/adverisement/Advertisement.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/analytics/Analytics.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/analytics/Analytics.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/home/Campaign.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/home/Campaign.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/home/Graph.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/home/Graph.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/home/Home.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/home/PlateCampaign.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/home/PlateCampaign.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/home/parseCampaign/parserCampaign.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/home/parseCampaign/parserCampaign.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/unit/Unit.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/unit/Unit.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/styled-components/StyledLink.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/styled-components/StyledLink.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/fetch_backend_api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/fetch_backend_api.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/store.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +56,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Users\Dmitry\WebstormProjects\WebProjects\ozonStatisticFront\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -67,12 +67,12 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/index.js" working-dir="$PROJECT_DIR$/src">
+    <configuration name="index.tsx" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/index.tsx" working-dir="$PROJECT_DIR$/src">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.index.js" />
+        <item itemvalue="Node.js.index.tsx" />
       </list>
     </recent_temporary>
   </component>
@@ -90,7 +90,10 @@
       <workItem from="1645875236157" duration="1259000" />
       <workItem from="1645877349293" duration="6105000" />
       <workItem from="1645959962474" duration="455000" />
-      <workItem from="1646129465192" duration="4490000" />
+      <workItem from="1646129465192" duration="5203000" />
+      <workItem from="1646312843829" duration="24000" />
+      <workItem from="1646588546677" duration="1877000" />
+      <workItem from="1646590687831" duration="8699000" />
     </task>
     <servers />
   </component>

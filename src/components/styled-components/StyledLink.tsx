@@ -12,4 +12,4 @@ const StyledLink = styled(Link)`
     }
 `;
 
-export default (props) => <StyledLink {...props} />;
+export default (props : any) => <StyledLink {...props} />;

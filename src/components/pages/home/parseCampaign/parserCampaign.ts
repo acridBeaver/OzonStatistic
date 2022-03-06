@@ -1,5 +1,5 @@
-export default function parserCampaign (campaign) {
-    let parsedCampaign = {}
+export const parserCampaign = (campaign : ParsedCampaign) => {
+    let parsedCampaign : ParsedCampaign = {}
     for (let i in campaign) {
         if (i === "id") {
             parsedCampaign["Идентификатор"] = campaign[i]
@@ -108,7 +108,7 @@ export default function parserCampaign (campaign) {
                 value = "Не определен"
             }
             else {
-                value = parseInt(campaign[i])
+                value = campaign[i]
             }
 
             parsedCampaign[key] = value
@@ -138,7 +138,7 @@ export default function parserCampaign (campaign) {
                 value = "Не определен"
             }
             else {
-                value = parseInt(campaign[i])
+                value = campaign[i]
             }
 
             parsedCampaign[key] = value

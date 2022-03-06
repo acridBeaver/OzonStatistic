@@ -1,13 +1,14 @@
 import Graph from "./Graph";
-import {useDispatch, useSelector} from "react-redux";
-import {useEffect} from "react";
+import {useSelector} from "react-redux";
+import React, {useEffect} from "react";
 import {fetch_list_advertisement} from "../../../store/fetch_backend_api";
-import Campaign from "./Campaign";
 import PlateCampaign from "./PlateCampaign";
+import {RootState, useTypeDispatch} from "../../../store/store";
 
-function Home() {
-    const {advertisement} = useSelector(state => state.fetch_reducer)
-    const dispatch = useDispatch();
+
+const Home : React.FC = () => {
+    const {advertisement} = useSelector((state : RootState) => state.fetch_reducer)
+    const dispatch = useTypeDispatch();
 
     useEffect(() => {
         dispatch(fetch_list_advertisement())
@@ -29,5 +30,6 @@ function Home() {
         </main>
     )
 }
+
 
 export default Home;

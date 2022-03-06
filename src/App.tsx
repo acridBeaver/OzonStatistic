@@ -2,8 +2,9 @@ import Header from "./components/Header";
 import Home from "./components/pages/home/Home";
 import Footer from "./components/Footer";
 import Navigation from "./components/Navigation";
+import React from "react";
 
-function App() {
+const App : React.FC = () => {
   return (
     <>
       <Header/>

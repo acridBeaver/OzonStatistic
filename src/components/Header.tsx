@@ -1,9 +1,9 @@
 import bell from '../recources/photos/bell_3.svg'
 import logo from '../recources/photos/logo-market.jpg'
-import {Link} from "react-router-dom";
 import StyledLink from "./styled-components/StyledLink";
+import React from "react";
 
-function Header() {
+const Header : React.FC = () => {
     return (
         <header className={"header"}>
             <div className={"header__intro-part"}>

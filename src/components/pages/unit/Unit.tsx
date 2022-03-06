@@ -1,4 +1,6 @@
-function Unit(){
+import React from "react";
+
+const Unit : React.FC = () => {
     return (
         <main className={"main"}>
 
