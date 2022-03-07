@@ -8,23 +8,19 @@ import {RootState, useTypeDispatch} from "../../../store/store";
 
 const Home : React.FC = () => {
     const {advertisement} = useSelector((state : RootState) => state.fetch_reducer)
-    const dispatch = useTypeDispatch();
 
-    useEffect(() => {
-        dispatch(fetch_list_advertisement())
-    }, [])
     return (
-        <main className={"first-page-content"}>
-            <div className={"core-info"}>
+        <main className={"first-page-content footer_to_bottom"}>
+            <div className={"core-info style_block_blue"}>
                 <Graph/>
             </div>
-            <div className={"something-1"}>
+            <div className={"something-1 style_block_blue"}>
                 <PlateCampaign listCampaign={advertisement}/>
             </div>
-            <div className={"something-2"}>
+            <div className={"something-2 style_block_blue"}>
 
             </div>
-            <div className={"something-3"}>
+            <div className={"something-3 style_block_blue"}>
 
             </div>
         </main>

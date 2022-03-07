@@ -106,15 +106,6 @@
   gap: 20px;
   margin: 0 20px;
 }
-.first-page-content .core-info,
-.first-page-content .something-1,
-.first-page-content .something-2,
-.first-page-content .something-3 {
-  border: 2px solid #4b6fe3;
-  border-radius: 15px;
-  box-shadow: 3px 3px 10px 5px rgba(0, 0, 0, 0.1);
-  background: white;
-}
 .first-page-content .core-info {
   grid-area: core;
   width: calc(50vw - 60px);
@@ -142,6 +133,7 @@
   flex-direction: row;
   align-items: center;
   flex: 0 0 auto;
+  margin-top: auto;
 }
 .footer .footer__info {
   color: white;
@@ -174,6 +166,17 @@
   width: 90%;
 }
 
+.style_block_blue {
+  border: 2px solid #4b6fe3;
+  border-radius: 15px;
+  box-shadow: 3px 3px 10px 5px rgba(0, 0, 0, 0.1);
+  background: white;
+}
+
+.footer_to_bottom {
+  flex: 1 0 auto;
+}
+
 @font-face {
   font-family: "GT";
   src: url("../recources/fonts/gteestiprodisplay_medium.otf");
@@ -184,28 +187,24 @@ html {
   padding: 0;
   width: 100%;
   height: 100%;
+  background: linear-gradient(to left, rgba(75, 111, 227, 0.2) 0, rgba(52, 95, 255, 0.1) 50%, rgba(75, 111, 227, 0.2) 100%);
 }
 
 .body {
   margin: 0;
   padding: 0;
+  height: 100%;
 }
 
 .root {
-  background: linear-gradient(to left, rgba(75, 111, 227, 0.2) 0, rgba(52, 95, 255, 0.1) 50%, rgba(75, 111, 227, 0.2) 100%);
   display: flex;
   flex-direction: column;
   gap: 20px;
+  height: 100%;
 }
 
 .recharts-legend-item {
   font-size: 22px;
-}
-
-.main {
-  flex: 1 0 auto;
-  height: 716px;
-  width: 100%;
 }
 
 /*# sourceMappingURL=index.css.map */

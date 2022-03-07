@@ -5,16 +5,6 @@
   margin: 0 20px;
 
 
-  .core-info,
-  .something-1,
-  .something-2,
-  .something-3 {
-    border: 2px solid #4b6fe3;
-    border-radius: 15px;
-    box-shadow: 3px 3px 10px 5px rgba(0, 0, 0, 0.1);
-    background: white;
-  }
-
   .core-info {
     grid-area: core;
     width: calc(50vw - 60px);
