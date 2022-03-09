@@ -4,7 +4,7 @@ import {RootState} from "../../../store/store";
 import PlateCampaign from "../home/PlateCampaign";
 
 const Advertisement : React.FC = () => {
-    const {advertisement} = useSelector((state : RootState) => state.fetch_reducer)
+    const {advertisement} = useSelector((state : RootState) => state.fetchAdvertisementReducer)
 
     return (
         <main className={"commercial-page footer_to_bottom"}>

@@ -2,19 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13fa9613-f650-4c7e-b666-df154fc376e0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/styles/fragments/_commercial.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/fragments/_modifyers.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/header/Profile.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/backend_api/fetch_profile.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Navigation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/pages/adverisement/Advertisement.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/adverisement/Advertisement.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/analytics/Analytics.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/analytics/Analytics.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/pages/home/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/home/Home.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/unit/Unit.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/unit/Unit.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/fragments/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/fragments/_footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/fragments/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/fragments/_home.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/index.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/fetch_backend_api.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/backend_api/fetch_advertisement.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/store.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/store.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/types.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/types.d.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,11 +24,21 @@
       <list>
         <option value="JavaScript File" />
         <option value="SCSS File" />
+        <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="25TN31SrF0fsrdvvuwYXqcjXj00" />
   <component name="ProjectViewState">
@@ -41,7 +49,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../overlaysite" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../witcher_monsters" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -53,6 +61,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Dmitry\WebstormProjects\WebProjects\ozonStatisticFront\src\components\header" />
+      <recent name="C:\Users\Dmitry\WebstormProjects\WebProjects\ozonStatisticFront\src\store\backend_api" />
       <recent name="C:\Users\Dmitry\WebstormProjects\ozonStatisticFront\src\components\pages\adverisement" />
       <recent name="C:\Users\Dmitry\WebstormProjects\ozonStatisticFront\src\components\pages\home" />
       <recent name="C:\Users\Dmitry\WebstormProjects\ozonStatisticFront\src\components\pages" />
@@ -85,7 +95,10 @@
       <workItem from="1646129465192" duration="5203000" />
       <workItem from="1646312843829" duration="24000" />
       <workItem from="1646588546677" duration="1877000" />
-      <workItem from="1646590687831" duration="12971000" />
+      <workItem from="1646590687831" duration="13877000" />
+      <workItem from="1646646013994" duration="1507000" />
+      <workItem from="1646830249244" duration="140000" />
+      <workItem from="1646838854544" duration="9861000" />
     </task>
     <servers />
   </component>

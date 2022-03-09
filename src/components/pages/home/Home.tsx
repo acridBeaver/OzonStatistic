@@ -1,13 +1,13 @@
 import Graph from "./Graph";
 import {useSelector} from "react-redux";
 import React, {useEffect} from "react";
-import {fetch_list_advertisement} from "../../../store/fetch_backend_api";
+import {getListAdvertisement} from "../../../store/backend_api/fetch_advertisement";
 import PlateCampaign from "./PlateCampaign";
 import {RootState, useTypeDispatch} from "../../../store/store";
 
 
 const Home : React.FC = () => {
-    const {advertisement} = useSelector((state : RootState) => state.fetch_reducer)
+    const {advertisement} = useSelector((state : RootState) => state.fetchAdvertisementReducer)
 
     return (
         <main className={"first-page-content footer_to_bottom"}>

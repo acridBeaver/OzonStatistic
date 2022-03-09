@@ -1,8 +1,12 @@
 import {combineReducers, configureStore} from '@reduxjs/toolkit';
-import {fetch_reducer} from "./fetch_backend_api";
+import {fetchAdvertisementReducer} from "./backend_api/fetch_advertisement";
 import {useDispatch} from "react-redux";
+import {fetchProfileReducer} from "./backend_api/fetch_profile";
 
-const rootReducer = combineReducers({fetch_reducer: fetch_reducer});
+const rootReducer = combineReducers({
+    fetchAdvertisementReducer: fetchAdvertisementReducer,
+    fetchProfileReducer : fetchProfileReducer
+});
 
 export const store = configureStore({
     reducer: rootReducer

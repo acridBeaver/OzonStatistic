@@ -5,13 +5,14 @@ import Unit from "./pages/unit/Unit";
 import Analytics from "./pages/analytics/Analytics";
 import React, {useEffect} from "react";
 import {useTypeDispatch} from "../store/store";
-import {fetch_list_advertisement} from "../store/fetch_backend_api";
+import {getListAdvertisement} from "../store/backend_api/fetch_advertisement";
 
 const Navigation : React.FC = () => {
     const dispatch = useTypeDispatch();
 
     useEffect(() => {
-        dispatch(fetch_list_advertisement())
+        dispatch(getListAdvertisement())
+        console.log("adv")
     }, [])
 
     return (

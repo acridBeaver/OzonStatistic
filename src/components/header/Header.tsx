@@ -1,7 +1,7 @@
-import bell from '../recources/photos/bell_3.svg'
-import logo from '../recources/photos/logo-market.jpg'
-import StyledLink from "./styled-components/StyledLink";
+import logo from '../../recources/photos/logo-market.jpg'
+import StyledLink from "../styled-components/StyledLink";
 import React from "react";
+import {Profile} from "./Profile";
 
 const Header : React.FC = () => {
     return (
@@ -16,20 +16,7 @@ const Header : React.FC = () => {
                     </h1>
                 </div>
 
-                <div className={"profile"}>
-                    <span className={"profile__name"}>
-                        poshlay13y.o
-                    </span>
-                    <div className={"profile__avatar"}>
-                        <img className={"profile__avatar-img"}
-                            src="https://phonoteka.org/uploads/posts/2021-05/1622024717_28-phonoteka_org-p-akhegao-piksel-art-krasivo-37.jpg"
-                            alt=""/>
-                    </div>
-                    <div className={"profile__notifications"}>
-                        <img className={"profile__notifications-img"} src={bell} alt=""/>
-                    </div>
-                    <span className={"profile__more"}>...</span>
-                </div>
+                <Profile/>
             </div>
             <nav className={"header__nav-part"}>
                 <ul className={"nav-part__choose"}>

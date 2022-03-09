@@ -16,3 +16,19 @@ declare module "*.png" {
 declare interface ParsedCampaign {
     [index : string] : string
 }
+
+declare interface AdvertisementState {
+    advertisement: Array<ParsedCampaign>
+    loading: 'idle' | 'pending' | 'succeeded' | 'failed'
+}
+
+declare interface ProfileState {
+    profile : UserInfo
+    loading: 'idle' | 'pending' | 'succeeded' | 'failed'
+}
+
+interface UserInfo {
+    id : string,
+    clientId : number,
+    login : string
+}
