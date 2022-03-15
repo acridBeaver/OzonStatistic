@@ -4,6 +4,7 @@ import React, {useEffect} from "react";
 import {getListAdvertisement} from "../../../store/backend_api/fetch_advertisement";
 import PlateCampaign from "./PlateCampaign";
 import {RootState, useTypeDispatch} from "../../../store/store";
+import GraphDifference from "./GraphDifference";
 
 
 const Home : React.FC = () => {
@@ -18,7 +19,6 @@ const Home : React.FC = () => {
                 <PlateCampaign listCampaign={advertisement}/>
             </div>
             <div className={"something-2 style_block_blue"}>
-
             </div>
             <div className={"something-3 style_block_blue"}>
 

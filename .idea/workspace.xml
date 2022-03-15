@@ -2,17 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13fa9613-f650-4c7e-b666-df154fc376e0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/header/Profile.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/backend_api/fetch_profile.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/home/GraphDifference.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navigation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/adverisement/Advertisement.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/adverisement/Advertisement.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/home/Graph.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/home/Graph.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/pages/home/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/home/Home.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/fetch_backend_api.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/backend_api/fetch_advertisement.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/store.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/store.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/types.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/types.d.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +93,10 @@
       <workItem from="1646590687831" duration="13877000" />
       <workItem from="1646646013994" duration="1507000" />
       <workItem from="1646830249244" duration="140000" />
-      <workItem from="1646838854544" duration="9861000" />
+      <workItem from="1646838854544" duration="10845000" />
+      <workItem from="1646917627240" duration="420000" />
+      <workItem from="1646991744965" duration="4277000" />
+      <workItem from="1647255266563" duration="958000" />
     </task>
     <servers />
   </component>

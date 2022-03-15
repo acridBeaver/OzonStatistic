@@ -1,4 +1,15 @@
-import {LineChart, XAxis, Tooltip, CartesianGrid, Line, BarChart, YAxis, Legend, Bar} from "recharts"
+import {
+    LineChart,
+    XAxis,
+    Tooltip,
+    CartesianGrid,
+    Line,
+    BarChart,
+    YAxis,
+    Legend,
+    Bar,
+    ResponsiveContainer
+} from "recharts"
 
 const data = [
     {name: "Понедельник", uv: 1453 , pv: 2300, amt: 500},
@@ -11,15 +22,17 @@ const data = [
 ]
 function Graph () {
     return (
-        <BarChart width={890} height={750} data={data} margin={{ top: 10, left: 0, right: 10, bottom: 10 }}>
-            <CartesianGrid strokeDasharray="3 3" />
-            <XAxis dataKey="name" />
-            <YAxis />
-            <Tooltip />
-            <Legend verticalAlign={"top"} height={30}/>
-            <Bar dataKey="uv" fill="#8884d8" name="Доход"/>
-            <Bar dataKey="pv" fill="#82ca9d" name="Убыток"/>
-        </BarChart>
+        <ResponsiveContainer width={"100%"} height={"100%"}>
+            <BarChart data={data} margin={{ top: 10, left: 0, right: 10, bottom: 10 }}>
+                <CartesianGrid strokeDasharray="3 3" />
+                <XAxis dataKey="name" />
+                <YAxis />
+                <Tooltip />
+                <Legend verticalAlign={"top"} height={30}/>
+                <Bar dataKey="uv" fill="#8884d8" name="Доход"/>
+                <Bar dataKey="pv" fill="#82ca9d" name="Убыток"/>
+            </BarChart>
+        </ResponsiveContainer>
     )
 }
 
